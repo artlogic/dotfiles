@@ -1,0 +1,7 @@
+[user]
+	name = James Kruth
+	email = james@kruth.org
+[push]
+	default = simple
+[core]
+	autocrlf = input
