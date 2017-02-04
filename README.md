@@ -6,7 +6,11 @@ These dotfiles can be installed by running the following commands (requires GNU 
 git clone --recursive https://github.com/artlogic/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 stow stow
+cd
+patch < .dotfiles/bashrc.patch
 ```
+
+Restart your terminal to source the new config files.
 
 ## Updating
 

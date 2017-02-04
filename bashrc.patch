@@ -1,0 +1,13 @@
+--- .bashrc	2016-12-04 21:40:41.911660706 -0500
++++ .bashrc.new	2017-02-04 15:43:39.169598649 -0500
+@@ -111,3 +111,10 @@
+     . /etc/bash_completion
+   fi
+ fi
++
++# source config files in .bashrc.d (if it exists)
++if [ -f "$HOME/.bashrc" ]; then
++    for file in "$HOME/.bashrc.d/*"; do
++	source "$file"
++    done
++fi
