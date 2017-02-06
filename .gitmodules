@@ -1,3 +1,6 @@
 [submodule "stow/.nvm"]
 	path = stow/.nvm
 	url = https://github.com/creationix/nvm.git
+[submodule "stow/.pyenv"]
+	path = stow/.pyenv
+	url = https://github.com/yyuu/pyenv.git

@@ -26,3 +26,4 @@ stow -R stow
 ## Submodules
 
 * stow/.nvm: https://github.com/creationix/nvm.git (tag: v0.33.0)
+* stow/.pyenv: https://github.com/yyuu/pyenv.git (tag: v1.0.7)
