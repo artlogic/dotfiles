@@ -1,3 +1,9 @@
-[submodule "stow/.nvm"]
-	path = stow/.nvm
+[submodule "config/.nvm"]
+	path = config/.nvm
 	url = https://github.com/creationix/nvm.git
+[submodule "config/.pyenv/pyenv-virtualenv"]
+	path = config/.pyenv/pyenv-virtualenv
+	url = https://github.com/yyuu/pyenv-virtualenv.git
+[submodule "config/.pyenv/root"]
+	path = config/.pyenv/root
+	url = https://github.com/yyuu/pyenv.git

@@ -1,0 +1,16 @@
+# the dir where all the pyenv stuff lives
+PYENV_CONTAINER="$HOME/.pyenv"
+
+# main pyenv root
+export PYENV_ROOT="$PYENV_CONTAINER/root"
+
+# setup pyenv-virtualenv hook path
+PYENV_VIRTUALENV_ROOT="$PYENV_CONTAINER/pyenv-virtualenv"
+export PYENV_HOOK_PATH="$PYENV_VIRTUALENV_ROOT/etc/pyenv.d"
+
+# put bins on the path
+export PATH="$PYENV_ROOT/bin:$PYENV_VIRTUALENV_ROOT/bin:$PATH"
+
+# init
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

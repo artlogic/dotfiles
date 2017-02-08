@@ -5,7 +5,7 @@ These dotfiles can be installed by running the following commands (requires GNU 
 ```
 git clone --recursive https://github.com/artlogic/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-stow stow
+stow config
 cd
 patch < .dotfiles/bashrc.patch
 ```
@@ -20,10 +20,11 @@ You can update by running the following commands:
 cd ~/.dotfiles
 git pull
 git submodule update
-stow -R stow
+stow -R config
 ```
 
 ## Submodules
 
-* stow/.nvm: https://github.com/creationix/nvm.git (tag: v0.33.0)
-* stow/.pyenv: https://github.com/yyuu/pyenv.git (tag: v1.0.7)
+* config/.nvm: https://github.com/creationix/nvm.git (tag: v0.33.0)
+* config/.pyenv/root: https://github.com/yyuu/pyenv.git (tag: v1.0.7)
+* config/.pyenv/pyenv-virtualenv: https://github.com/yyuu/pyenv-virtualenv.git (tag: v1.0.0)
