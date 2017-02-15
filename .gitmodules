@@ -7,3 +7,6 @@
 [submodule "config/.pyenv/root"]
 	path = config/.pyenv/root
 	url = https://github.com/yyuu/pyenv.git
+[submodule "config/.rbenv/root"]
+	path = config/.rbenv/root
+	url = https://github.com/rbenv/rbenv.git
