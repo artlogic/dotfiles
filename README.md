@@ -29,3 +29,4 @@ stow -R config
 * config/.pyenv/root: https://github.com/yyuu/pyenv.git (tag: v1.0.7)
 * config/.pyenv/pyenv-virtualenv: https://github.com/yyuu/pyenv-virtualenv.git (tag: v1.0.0)
 * config/.rbenv/root: https://github.com/rbenv/rbenv.git (tag: v1.1.0)
+* config/.rbenv/ruby-build: https://github.com/rbenv/ruby-build.git (tag: v20170201)
