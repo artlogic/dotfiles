@@ -7,7 +7,9 @@ Description=Emacs text editor
 Documentation=info:emacs man:emacs(1) https://gnu.org/software/emacs/
 
 [Service]
-Type=simple
+# simple only works with fg-daemon
+#Type=simple
+Type=forking
 # --fg-daemon not available in emacs 24.5
 #ExecStart=emacs --fg-daemon
 ExecStart=/usr/bin/emacs --daemon
