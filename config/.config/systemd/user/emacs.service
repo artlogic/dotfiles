@@ -8,7 +8,9 @@ Documentation=info:emacs man:emacs(1) https://gnu.org/software/emacs/
 
 [Service]
 Type=simple
-ExecStart=emacs --fg-daemon
+# --fg-daemon not available in emacs 24.5
+#ExecStart=emacs --fg-daemon
+ExecStart=emacs --daemon
 ExecStop=emacsclient --eval "(kill-emacs)"
 # Commented because GNOME doesn't play nice with ssh-agent
 #Environment=SSH_AUTH_SOCK=%t/keyring/ssh
