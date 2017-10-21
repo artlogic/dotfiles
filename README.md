@@ -12,6 +12,15 @@ patch < .dotfiles/bashrc.patch
 
 Restart your terminal to source the new config files.
 
+## emacs daemon
+
+(manual steps for now)
+
+```
+systemctl enable --user emacs
+systemctl start --user emacs
+```
+
 ## Updating
 
 You can update by running the following commands:
