@@ -27,3 +27,5 @@ URxvt*color12: #0071FF
 URxvt*color13: #FF1D62
 URxvt*color14: #4BB8FD
 URxvt*color15: #A020F0
+
+! Further customization ideas: https://github.com/tony/.dot-config/blob/master/.Xresources
