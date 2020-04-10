@@ -2,6 +2,6 @@
 	name = James Kruth
 	email = james@kruth.org
 [push]
-	default = simple
+	default = current
 [core]
 	autocrlf = input
