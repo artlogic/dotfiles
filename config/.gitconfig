@@ -5,3 +5,5 @@
 	default = current
 [core]
 	autocrlf = input
+[pull]
+	rebase = true
