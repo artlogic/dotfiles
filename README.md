@@ -10,15 +10,16 @@ cd
 patch < .dotfiles/bashrc.patch
 ```
 
+If using fish, the patch step can be skipped.
+
 Restart your terminal to source the new config files.
 
 ## emacs daemon
 
-(manual steps for now)
+(manual step for now)
 
 ```
-systemctl enable --user emacs
-systemctl start --user emacs
+systemctl enable --user --now emacs
 ```
 
 ## Updating
