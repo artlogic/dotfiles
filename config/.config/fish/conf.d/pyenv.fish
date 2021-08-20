@@ -12,5 +12,5 @@ set -x PYENV_HOOK_PATH "$PYENV_VIRTUALENV_ROOT/etc/pyenv.d"
 set -x PATH $PYENV_ROOT/bin $PYENV_VIRTUALENV_ROOT/bin $PATH
 
 # init
-pyenv init - | source
+pyenv init --path | source
 pyenv virtualenv-init - | source
