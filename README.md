@@ -39,4 +39,4 @@ stow -R config
 * config/.pyenv/root: https://github.com/yyuu/pyenv.git (tag: 1.2.27)
 * config/.pyenv/pyenv-virtualenv: https://github.com/yyuu/pyenv-virtualenv.git (tag: v1.1.5)
 * config/.rbenv/root: https://github.com/rbenv/rbenv.git (tag: v1.1.2)
-* config/.rbenv/ruby-build: https://github.com/rbenv/ruby-build.git (tag: v20210510)
+* config/.rbenv/ruby-build: https://github.com/rbenv/ruby-build.git (tag: v20210804)
