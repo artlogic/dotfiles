@@ -35,8 +35,8 @@ stow -R config
 
 ## Submodules
 
-* config/.nvm: https://github.com/creationix/nvm.git (tag: v0.39.7)
-* config/.pyenv/root: https://github.com/yyuu/pyenv.git (tag: v2.4.7)
-* config/.pyenv/pyenv-virtualenv: https://github.com/yyuu/pyenv-virtualenv.git (tag: v1.2.3)
+* config/.nvm: https://github.com/creationix/nvm.git (tag: v0.40.1)
+* config/.pyenv/root: https://github.com/yyuu/pyenv.git (tag: v2.5.0)
+* config/.pyenv/pyenv-virtualenv: https://github.com/yyuu/pyenv-virtualenv.git (tag: v1.2.4)
 * config/.rbenv/root: https://github.com/rbenv/rbenv.git (tag: v1.3.0)
-* config/.rbenv/ruby-build: https://github.com/rbenv/ruby-build.git (tag: v20240709.1)
+* config/.rbenv/ruby-build: https://github.com/rbenv/ruby-build.git (tag: v20241225.2)
