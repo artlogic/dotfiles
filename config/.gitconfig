@@ -1,9 +1,38 @@
 [user]
-	name = James Kruth
+	name = Jame Kruth
 	email = james@kruth.org
 [push]
-	default = current
+	autoSetupRemote = true
+	followTags = true
 [core]
 	autocrlf = input
 [pull]
 	rebase = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
+[fetch]
+	all = true
+[help]
+	autocorrect = prompt
+[commit]
+	verbose = true
+[rerere]
+	enabled = true
+	autoupdate = true
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
+[merge]
+	conflictstyle = zdiff3
